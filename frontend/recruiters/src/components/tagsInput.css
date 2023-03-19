@@ -1,0 +1,22 @@
+.tag-item{
+    font-size:  12px; 
+    padding:  10px; 
+    height:  30px; 
+    border:#000;  
+    background-color:  #dbe8ff;
+    width:  40px; 
+    box-sizing:  border-box; 
+    transition:  all .3s linear; 
+    color:  #000; 
+    font-weight:  500;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.tags-input{
+    margin-top: 15px;
+}
+
+.close{
+    cursor: pointer;
+}

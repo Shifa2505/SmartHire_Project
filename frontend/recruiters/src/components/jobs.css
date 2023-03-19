@@ -1,0 +1,54 @@
+/*.jobsPage{
+  background-image: url("pexels-sora-shimazaki-5668859.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}*/
+
+html{
+  height: 100vh;
+}
+/*h1{
+    background-color: #69306d;
+    color: white;
+    font-size: 3rem;
+    font-weight: 750;
+    letter-spacing: 2px;
+    padding: 2rem;
+    text-align: center;
+  }
+
+
+
+.input{
+     font-size: 1.1rem;
+     padding: 10px 0 20px;
+}
+
+.container {
+    display: grid;
+    margin-top: 20px;
+    width: 40%;
+    justify-content: center;
+  }
+
+  input{
+    border: solid;
+    width: 50%;
+  }
+
+  .btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #69306d;
+  }
+  .btn:hover{
+    color: #69306d ;
+    transition: 0.5s;
+    border-radius: 25px;
+    border: 4px solid #69306d;
+    background-color: #f2d7ee;
+  }*/

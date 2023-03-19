@@ -1,0 +1,138 @@
+.App {
+  /* text-align: center; */
+  background-color: #69306d;
+ 
+  min-height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-size: 1.1rem;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 650;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.user_info_container{
+  color: #fff;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.user_info{
+
+  display: flex;
+  flex-basis: 30%;
+  width: 50%;
+  margin-top: 20px;
+}
+.info{
+  flex-basis: 30%;
+  margin-top: 20px;
+  width: 50%;
+}
+.info .icon{
+  font-size: 2rem;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+.info a, span{
+  font-size: 1.3rem;
+  color: #fff;
+}
+.upload_resume{
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.resume{
+  background-color: #f2d7ee;
+  /* background-color: #69306d; */
+  width: 50%;
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: dashed;
+}
+.resume h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.selection{
+  margin-left: 80px;
+}
+.selection label, input{
+  font-size: 1.2rem;
+}
+.selection label{
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.btn{
+  text-decoration: none;
+  width: 200px;
+  margin-left: 190px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #69306d;
+}
+.btn:hover{
+  color: #69306d ;
+  transition: 0.5s;
+  border-radius: 25px;
+  border: 4px solid #69306d;
+  background-color: #f2d7ee;
+}

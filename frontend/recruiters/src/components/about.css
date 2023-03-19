@@ -1,0 +1,26 @@
+.about-component-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(11, 11, 90);
+    color: white;
+}
+.about-points {
+    font-size: 24px;
+}
+
+.about-image {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.about-image img {
+    height: 360px;
+    margin: 0px;
+}
